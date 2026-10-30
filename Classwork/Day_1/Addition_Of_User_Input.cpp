@@ -6,15 +6,15 @@ int main()
 {
     int iValue1, iValue2 , iResult;
 
-    printf("Enter first number : \n");
-    scanf("%d",&iValue1);
+    cout << "Enter first number : \n";
+    cin >> iValue1;
 
-    printf("Enter second number : \n");
-    scanf("%d",&iValue2);
+    cout << "Enter second number : \n";
+    cin >> iValue2;
 
     iResult = iValue1 + iValue2;
 
-    printf("%d\n",iResult);
+    cout << "%d\n"+iResult;
 
     return 0;
 }
