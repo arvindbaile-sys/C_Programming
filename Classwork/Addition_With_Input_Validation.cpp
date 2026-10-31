@@ -38,4 +38,7 @@ int main()
     }
 
     iResult = Addition(iValue1.iValue2);
+
+    cout << "Addition is : %d\n"+iResult;
+    
 }
