@@ -37,7 +37,7 @@ int main()
         return EXIT_FAILURE;
     }
 
-    iResult = Addition(iValue1.iValue2);
+    iResult = Addition(iValue1,iValue2);
 
     cout << "Addition is : %d\n"+iResult;
     

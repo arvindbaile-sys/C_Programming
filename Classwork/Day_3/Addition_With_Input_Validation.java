@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Main {
+public class Addition_With_Input_Validation
+{
 
     
     public static int addition(
@@ -34,7 +35,7 @@ public class Main {
         }
         iValue2 = scanner.nextInt();
 
-        iResult = addition(iValue1, iValue2);      
+        iResult = addition(iValue1, iValue2);
 
         System.out.println("Addition is : " + iResult);
 
@@ -42,5 +43,3 @@ public class Main {
         System.exit(0); // Acts as EXIT_SUCCESS
     }
 }
-
-/
