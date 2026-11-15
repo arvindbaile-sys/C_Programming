@@ -1,6 +1,23 @@
 #include <stdio.h>
 #include<stdlib.h>
 
+/*
+    Program Name : Reverse_Row_Hash_Star_Pattern.c
+
+    Description  : This program displays a reverse row-wise pattern of
+                    hash (#) and star (*) symbols based on the given
+                    number of rows and columns.
+
+    Input        : Number of rows and columns.
+
+    Output       : Displays hash (#) when the column number is greater
+                    than the current row number; otherwise, displays
+                    star (*).
+
+    Author       : Arvind Madhav Baile
+    Date         : 15/11/2026
+*/
+
 void Pattern(int iRow, int iCol)
 {
     int i = 0, j = 0;
