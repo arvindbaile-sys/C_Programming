@@ -31,6 +31,7 @@ void Pattern(int iNo)
     }
     printf("\n");
 }
+
 int main()
 {
     int iValue = 0;
